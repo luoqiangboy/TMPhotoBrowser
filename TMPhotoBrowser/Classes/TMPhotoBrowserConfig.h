@@ -1,11 +1,3 @@
-//
-//  TMPhotoBrowserConfig.h
-//  TMPhotoBrowser
-//
-//  Created by huangzhenyu on 15-2-9.
-//  Copyright (c) 2015年 huangzhenyu. All rights reserved.
-//
-
 
 typedef enum {
     TMWaitingViewModeLoopDiagram = 0, // 环形
@@ -86,16 +78,6 @@ _Pragma("clang diagnostic pop")
 #define kStatusBar_Height ([UIApplication sharedApplication].statusBarFrame.size.height)
 //底部安全距离 iphoneX->34 其他 0
 #define kBottomSafeHeight (KIsiPhoneHear?34.0f:0.0f)
-
-// 图片路径
-#define TMPhotoBrowserSrc(file)  ([@"TMPhotoBrowser.bundle" stringByAppendingPathComponent:file])
-#define TMPhotoBrowserImage(file)     ([UIImage imageNamed:TMPhotoBrowserSrc(file)])
-
-// 图片保存成功提示文字
-#define TMPhotoBrowserSaveImageSuccessText @" 保存成功 "
-
-// 图片保存失败提示文字
-#define TMPhotoBrowserSaveImageFailText @" 保存失败 "
 
 // browser背景颜色
 #define TMPhotoBrowserBackgrounColor ([UIColor colorWithRed:0 green:0 blue:0 alpha:1])

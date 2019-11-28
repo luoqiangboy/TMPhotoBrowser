@@ -1,10 +1,4 @@
-//
-//  TMPhotoBrowserView.m
-//  TMPhotoBrowser
-//
-//  Created by huangzhenyu on 15/5/7.
-//  Copyright (c) 2015年 huangzhenyu. All rights reserved.
-//
+
 
 #import "TMPhotoBrowserView.h"
 #import "TMWaitingView.h"

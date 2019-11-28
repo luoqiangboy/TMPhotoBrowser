@@ -1,19 +1,10 @@
-//
-//  TMPhotoBrowser.m
-//  photobrowser
-//
-//  Created by huangzhenyu on 15-2-3.
-//  Copyright (c) 2015年 huangzhenyu. All rights reserved.
-//
+
 
 #import "TMPhotoBrowser.h"
-//#import <UIImageView+WebCache.h>
 #import "TMPhotoBrowserView.h"
 #import "TMPhotoBrowserConfig.h"
 #import <AssetsLibrary/AssetsLibrary.h>
-#import <MobileCoreServices/MobileCoreServices.h>
-#import <Photos/PHPhotoLibrary.h>
-#import <Photos/PHAssetChangeRequest.h>
+
 
 @interface TMPhotoBrowser()
 @property (nonatomic,strong) UITapGestureRecognizer *singleTap;
@@ -230,65 +221,6 @@
         indexLabel.text = [NSString stringWithFormat:@"1/%ld", (long)self.imageCount];
         _indexLabel = indexLabel;
         [self addSubview:indexLabel];
-    }
-
-    // 2.保存按钮
-    UIButton *saveButton = [[UIButton alloc] init];
-    [saveButton setTitle:@"保存" forState:UIControlStateNormal];
-    [saveButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    saveButton.layer.borderWidth = 0.1;
-    saveButton.layer.borderColor = [UIColor whiteColor].CGColor;
-    saveButton.backgroundColor = [UIColor colorWithRed:0.1f green:0.1f blue:0.1f alpha:0.3f];
-    saveButton.layer.cornerRadius = 2;
-    saveButton.clipsToBounds = YES;
-    [saveButton addTarget:self action:@selector(saveImage) forControlEvents:UIControlEventTouchUpInside];
-    _saveButton = saveButton;
-    [self addSubview:saveButton];
-    saveButton.hidden = YES;
-}
-
-//保存图像
-- (void)saveImage
-{
-    int index = _scrollView.contentOffset.x / _scrollView.bounds.size.width;
-    TMPhotoBrowserView *currentView = _scrollView.subviews[index];
-    if (currentView.hasLoadedImage) {
-        SDAnimatedImageView *animatedImageView;
-        if ([currentView.imageview isKindOfClass:[SDAnimatedImageView class]]) {
-            animatedImageView = (SDAnimatedImageView *)currentView.imageview;
-            NSData *imageData = UIImagePNGRepresentation(animatedImageView.image);
-            if (!imageData) {
-                [self showTip:TMPhotoBrowserSaveImageFailText];
-                return;
-            }
-            // iOS 9.0 以下系统的处理
-            ALAssetsLibrary *library = [[ALAssetsLibrary alloc] init];
-            NSDictionary *metadata = @{@"UTI":(__bridge NSString *)kUTTypeImage};
-            [library writeImageDataToSavedPhotosAlbum:imageData metadata:metadata completionBlock:^(NSURL *assetURL, NSError *error) {
-                if (error) {
-                    // "保存图片失败"
-                    [self showTip:TMPhotoBrowserSaveImageFailText];
-                }else{
-                    //保存图片成功"
-                    [self showTip:TMPhotoBrowserSaveImageSuccessText];
-                }
-            }] ;
-
-        } else {
-            UIImageWriteToSavedPhotosAlbum(currentView.imageview.image, self, @selector(image:didFinishSavingWithError:contextInfo:), NULL);
-        }
-        
-    } else {
-        [self showTip:TMPhotoBrowserSaveImageFailText];
-    }
-}
-
-- (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo;
-{
-    if (error) {
-        [self showTip:TMPhotoBrowserSaveImageFailText];
-    } else {
-        [self showTip:TMPhotoBrowserSaveImageSuccessText];
     }
 }
 

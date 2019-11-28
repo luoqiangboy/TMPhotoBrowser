@@ -18,7 +18,6 @@
 		4A5448F6238F9FB900D66E6F /* TMPhotoBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5448F2238F9FB900D66E6F /* TMPhotoBrowserView.m */; };
 		4A5448F8238FA2BC00D66E6F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4A5448F7238FA2BB00D66E6F /* Podfile */; };
 		4A5448FA238FBE0E00D66E6F /* TMPhotoBrowser.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 4A5448F9238FBE0E00D66E6F /* TMPhotoBrowser.podspec */; };
-		4A5448FD238FBF9C00D66E6F /* whiteplaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5448FC238FBF9C00D66E6F /* whiteplaceholder.png */; };
 		C3389EB681E4A2FD415BA28A /* libPods-TMPhotoBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD078D6084F5561CF2AFA5F6 /* libPods-TMPhotoBrowser.a */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +41,6 @@
 		4A5448F2238F9FB900D66E6F /* TMPhotoBrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMPhotoBrowserView.m; sourceTree = "<group>"; };
 		4A5448F7238FA2BB00D66E6F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4A5448F9238FBE0E00D66E6F /* TMPhotoBrowser.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TMPhotoBrowser.podspec; sourceTree = "<group>"; };
-		4A5448FC238FBF9C00D66E6F /* whiteplaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteplaceholder.png; sourceTree = "<group>"; };
 		5857FF2DC9EFB584A1FE2423 /* Pods-TMPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMPhotoBrowser.debug.xcconfig"; path = "Target Support Files/Pods-TMPhotoBrowser/Pods-TMPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 		973CDB1B5BD05F1AC30929B8 /* Pods-TMPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMPhotoBrowser.release.xcconfig"; path = "Target Support Files/Pods-TMPhotoBrowser/Pods-TMPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
 		FD078D6084F5561CF2AFA5F6 /* libPods-TMPhotoBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TMPhotoBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,7 +90,6 @@
 		4A5448D2238F9F0F00D66E6F /* TMPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				4A5448FB238FBF9000D66E6F /* Assets */,
 				4A5448E9238F9F3200D66E6F /* Classes */,
 				4A5448D3238F9F0F00D66E6F /* AppDelegate.h */,
 				4A5448D4238F9F0F00D66E6F /* AppDelegate.m */,
@@ -119,14 +116,6 @@
 				4A5448F0238F9FB900D66E6F /* TMWaitingView.m */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		4A5448FB238FBF9000D66E6F /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				4A5448FC238FBF9C00D66E6F /* whiteplaceholder.png */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		6B603498D1F17E3AB52A8227 /* Frameworks */ = {
@@ -199,7 +188,6 @@
 				4A5448E0238F9F1500D66E6F /* LaunchScreen.storyboard in Resources */,
 				4A5448FA238FBE0E00D66E6F /* TMPhotoBrowser.podspec in Resources */,
 				4A5448DD238F9F1500D66E6F /* Assets.xcassets in Resources */,
-				4A5448FD238FBF9C00D66E6F /* whiteplaceholder.png in Resources */,
 				4A5448DB238F9F0F00D66E6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

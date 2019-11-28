@@ -1,10 +1,4 @@
-//
-//  TMPhotoBrowser.h
-//  photobrowser
-//
-//  Created by huangzhenyu on 15-2-3.
-//  Copyright (c) 2015年 huangzhenyu. All rights reserved.
-//
+
 
 #import <UIKit/UIKit.h>
 
