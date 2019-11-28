@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "TMPhotoBrowser"
-s.version      = "1.1.28"
+s.version      = "1.1.0"
 s.summary      = "TMPhotoBrowser.图片浏览器"
 
 s.homepage     = "https://github.com/luoqiangboy/TMPhotoBrowser"
