@@ -1,0 +1,7 @@
+TMPhotoBrowser.xcodeproj/xcuserdata/
+TMPhotoBrowser.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+TMPhotoBrowser.xcodeproj/project.xcworkspace/xcuserdata/

@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A5448D5238F9F0F00D66E6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5448D4238F9F0F00D66E6F /* AppDelegate.m */; };
+		4A5448D8238F9F0F00D66E6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5448D7238F9F0F00D66E6F /* ViewController.m */; };
+		4A5448DB238F9F0F00D66E6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5448D9238F9F0F00D66E6F /* Main.storyboard */; };
+		4A5448DD238F9F1500D66E6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5448DC238F9F1500D66E6F /* Assets.xcassets */; };
+		4A5448E0238F9F1500D66E6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5448DE238F9F1500D66E6F /* LaunchScreen.storyboard */; };
+		4A5448E3238F9F1500D66E6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5448E2238F9F1500D66E6F /* main.m */; };
+		4A5448F4238F9FB900D66E6F /* TMPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5448EF238F9FB900D66E6F /* TMPhotoBrowser.m */; };
+		4A5448F5238F9FB900D66E6F /* TMWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5448F0238F9FB900D66E6F /* TMWaitingView.m */; };
+		4A5448F6238F9FB900D66E6F /* TMPhotoBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5448F2238F9FB900D66E6F /* TMPhotoBrowserView.m */; };
+		4A5448F8238FA2BC00D66E6F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4A5448F7238FA2BB00D66E6F /* Podfile */; };
+		4A5448FA238FBE0E00D66E6F /* TMPhotoBrowser.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 4A5448F9238FBE0E00D66E6F /* TMPhotoBrowser.podspec */; };
+		4A5448FD238FBF9C00D66E6F /* whiteplaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A5448FC238FBF9C00D66E6F /* whiteplaceholder.png */; };
+		C3389EB681E4A2FD415BA28A /* libPods-TMPhotoBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD078D6084F5561CF2AFA5F6 /* libPods-TMPhotoBrowser.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A5448D0238F9F0F00D66E6F /* TMPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5448D3238F9F0F00D66E6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A5448D4238F9F0F00D66E6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A5448D6238F9F0F00D66E6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A5448D7238F9F0F00D66E6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A5448DA238F9F0F00D66E6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A5448DC238F9F1500D66E6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A5448DF238F9F1500D66E6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A5448E1238F9F1500D66E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5448E2238F9F1500D66E6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A5448EB238F9FB800D66E6F /* TMPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMPhotoBrowserConfig.h; sourceTree = "<group>"; };
+		4A5448EC238F9FB800D66E6F /* TMPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMPhotoBrowser.h; sourceTree = "<group>"; };
+		4A5448ED238F9FB900D66E6F /* TMPhotoBrowserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMPhotoBrowserView.h; sourceTree = "<group>"; };
+		4A5448EF238F9FB900D66E6F /* TMPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMPhotoBrowser.m; sourceTree = "<group>"; };
+		4A5448F0238F9FB900D66E6F /* TMWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMWaitingView.m; sourceTree = "<group>"; };
+		4A5448F1238F9FB900D66E6F /* TMWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMWaitingView.h; sourceTree = "<group>"; };
+		4A5448F2238F9FB900D66E6F /* TMPhotoBrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMPhotoBrowserView.m; sourceTree = "<group>"; };
+		4A5448F7238FA2BB00D66E6F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4A5448F9238FBE0E00D66E6F /* TMPhotoBrowser.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TMPhotoBrowser.podspec; sourceTree = "<group>"; };
+		4A5448FC238FBF9C00D66E6F /* whiteplaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteplaceholder.png; sourceTree = "<group>"; };
+		5857FF2DC9EFB584A1FE2423 /* Pods-TMPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMPhotoBrowser.debug.xcconfig"; path = "Target Support Files/Pods-TMPhotoBrowser/Pods-TMPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		973CDB1B5BD05F1AC30929B8 /* Pods-TMPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMPhotoBrowser.release.xcconfig"; path = "Target Support Files/Pods-TMPhotoBrowser/Pods-TMPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		FD078D6084F5561CF2AFA5F6 /* libPods-TMPhotoBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TMPhotoBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A5448CD238F9F0F00D66E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3389EB681E4A2FD415BA28A /* libPods-TMPhotoBrowser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3692515E907701ECF43737 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5857FF2DC9EFB584A1FE2423 /* Pods-TMPhotoBrowser.debug.xcconfig */,
+				973CDB1B5BD05F1AC30929B8 /* Pods-TMPhotoBrowser.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4A5448C7238F9F0F00D66E6F = {
+			isa = PBXGroup;
+			children = (
+				4A5448F7238FA2BB00D66E6F /* Podfile */,
+				4A5448F9238FBE0E00D66E6F /* TMPhotoBrowser.podspec */,
+				4A5448D2238F9F0F00D66E6F /* TMPhotoBrowser */,
+				4A5448D1238F9F0F00D66E6F /* Products */,
+				0A3692515E907701ECF43737 /* Pods */,
+				6B603498D1F17E3AB52A8227 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A5448D1238F9F0F00D66E6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A5448D0238F9F0F00D66E6F /* TMPhotoBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A5448D2238F9F0F00D66E6F /* TMPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				4A5448FB238FBF9000D66E6F /* Assets */,
+				4A5448E9238F9F3200D66E6F /* Classes */,
+				4A5448D3238F9F0F00D66E6F /* AppDelegate.h */,
+				4A5448D4238F9F0F00D66E6F /* AppDelegate.m */,
+				4A5448D6238F9F0F00D66E6F /* ViewController.h */,
+				4A5448D7238F9F0F00D66E6F /* ViewController.m */,
+				4A5448D9238F9F0F00D66E6F /* Main.storyboard */,
+				4A5448DC238F9F1500D66E6F /* Assets.xcassets */,
+				4A5448DE238F9F1500D66E6F /* LaunchScreen.storyboard */,
+				4A5448E1238F9F1500D66E6F /* Info.plist */,
+				4A5448E2238F9F1500D66E6F /* main.m */,
+			);
+			path = TMPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		4A5448E9238F9F3200D66E6F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4A5448EC238F9FB800D66E6F /* TMPhotoBrowser.h */,
+				4A5448EF238F9FB900D66E6F /* TMPhotoBrowser.m */,
+				4A5448EB238F9FB800D66E6F /* TMPhotoBrowserConfig.h */,
+				4A5448ED238F9FB900D66E6F /* TMPhotoBrowserView.h */,
+				4A5448F2238F9FB900D66E6F /* TMPhotoBrowserView.m */,
+				4A5448F1238F9FB900D66E6F /* TMWaitingView.h */,
+				4A5448F0238F9FB900D66E6F /* TMWaitingView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4A5448FB238FBF9000D66E6F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4A5448FC238FBF9C00D66E6F /* whiteplaceholder.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6B603498D1F17E3AB52A8227 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD078D6084F5561CF2AFA5F6 /* libPods-TMPhotoBrowser.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A5448CF238F9F0F00D66E6F /* TMPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A5448E6238F9F1500D66E6F /* Build configuration list for PBXNativeTarget "TMPhotoBrowser" */;
+			buildPhases = (
+				ED942E58B2DD1BE3EE455062 /* [CP] Check Pods Manifest.lock */,
+				4A5448CC238F9F0F00D66E6F /* Sources */,
+				4A5448CD238F9F0F00D66E6F /* Frameworks */,
+				4A5448CE238F9F0F00D66E6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMPhotoBrowser;
+			productName = TMPhotoBrowser;
+			productReference = 4A5448D0238F9F0F00D66E6F /* TMPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A5448C8238F9F0F00D66E6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = CodeTeam;
+				TargetAttributes = {
+					4A5448CF238F9F0F00D66E6F = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 4A5448CB238F9F0F00D66E6F /* Build configuration list for PBXProject "TMPhotoBrowser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A5448C7238F9F0F00D66E6F;
+			productRefGroup = 4A5448D1238F9F0F00D66E6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A5448CF238F9F0F00D66E6F /* TMPhotoBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A5448CE238F9F0F00D66E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5448F8238FA2BC00D66E6F /* Podfile in Resources */,
+				4A5448E0238F9F1500D66E6F /* LaunchScreen.storyboard in Resources */,
+				4A5448FA238FBE0E00D66E6F /* TMPhotoBrowser.podspec in Resources */,
+				4A5448DD238F9F1500D66E6F /* Assets.xcassets in Resources */,
+				4A5448FD238FBF9C00D66E6F /* whiteplaceholder.png in Resources */,
+				4A5448DB238F9F0F00D66E6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ED942E58B2DD1BE3EE455062 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TMPhotoBrowser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A5448CC238F9F0F00D66E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5448F6238F9FB900D66E6F /* TMPhotoBrowserView.m in Sources */,
+				4A5448D8238F9F0F00D66E6F /* ViewController.m in Sources */,
+				4A5448E3238F9F1500D66E6F /* main.m in Sources */,
+				4A5448D5238F9F0F00D66E6F /* AppDelegate.m in Sources */,
+				4A5448F4238F9FB900D66E6F /* TMPhotoBrowser.m in Sources */,
+				4A5448F5238F9FB900D66E6F /* TMWaitingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A5448D9238F9F0F00D66E6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A5448DA238F9F0F00D66E6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A5448DE238F9F1500D66E6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A5448DF238F9F1500D66E6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A5448E4238F9F1500D66E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A5448E5238F9F1500D66E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A5448E7238F9F1500D66E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5857FF2DC9EFB584A1FE2423 /* Pods-TMPhotoBrowser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TMPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeTeam.TMPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A5448E8238F9F1500D66E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 973CDB1B5BD05F1AC30929B8 /* Pods-TMPhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TMPhotoBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeTeam.TMPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A5448CB238F9F0F00D66E6F /* Build configuration list for PBXProject "TMPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5448E4238F9F1500D66E6F /* Debug */,
+				4A5448E5238F9F1500D66E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A5448E6238F9F1500D66E6F /* Build configuration list for PBXNativeTarget "TMPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5448E7238F9F1500D66E6F /* Debug */,
+				4A5448E8238F9F1500D66E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A5448C8238F9F0F00D66E6F /* Project object */;
+}
