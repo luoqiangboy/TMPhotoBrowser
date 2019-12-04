@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.source_files  = "TMPhotoBrowser/Classes/*.{h,m}"
 
   s.requires_arc = true
-  s.dependency 'SDWebImage', '~> 5.3.1'
+  s.dependency 'SDWebImage'
 
 end

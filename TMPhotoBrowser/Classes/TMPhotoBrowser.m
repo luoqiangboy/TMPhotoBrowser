@@ -3,7 +3,6 @@
 #import "TMPhotoBrowser.h"
 #import "TMPhotoBrowserView.h"
 #import "TMPhotoBrowserConfig.h"
-#import <AssetsLibrary/AssetsLibrary.h>
 
 
 @interface TMPhotoBrowser()
